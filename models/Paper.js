@@ -4,6 +4,7 @@ const cmsConnection = require("../database/cms");
 const paperSchema = new mongoose.Schema({
   topic: String,
   description: String,
+  videoURL: String,
   status: String,
   email: String,
   filepath: String,
